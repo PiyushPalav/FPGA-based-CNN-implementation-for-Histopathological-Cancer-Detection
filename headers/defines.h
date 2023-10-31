@@ -1,0 +1,37 @@
+#define IMAGE_SIZE  32
+
+#define CONV1_KERNEL_SIZE 	3
+#define CONV1_CHANNELS 		1
+#define CONV1_FILTERS 		8
+#define CONV1_BIAS_SIZE 	8
+
+#define POOL1_SIZE          15
+#define POOL1_CHANNELS      8
+#define POOL1_KERNEL_SIZE   2
+#define POOL1_STRIDE        2
+
+#define POOL1_INPUT_FEATURE_SIZE        30
+#define POOL1_INPUT_FEATURE_CHANNELS    8
+
+#define CONV2_KERNEL_SIZE 	3
+#define CONV2_CHANNELS 		8
+#define CONV2_FILTERS 		16
+#define CONV2_BIAS_SIZE		16
+#define CONV2_STRIDE 		1
+
+#define POOL2_SIZE          6
+#define POOL2_CHANNELS      16
+#define POOL2_KERNEL_SIZE   2
+#define POOL2_STRIDE        2
+
+#define POOL2_INPUT_FEATURE_SIZE        13
+#define POOL2_INPUT_FEATURE_CHANNELS    16
+
+#define CONV3_KERNEL_SIZE 	3
+#define CONV3_CHANNELS 		16
+#define CONV3_FILTERS 		32
+#define CONV3_BIAS_SIZE		32
+#define CONV3_STRIDE 		1
+
+#define FULLYCONNECTED_WEIGHTS		512
+#define FULLYCONNECTED_BIAS_SIZE		1
